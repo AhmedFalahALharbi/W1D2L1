@@ -1,6 +1,6 @@
 * {
-    background-color: black;
-    color: white;
+    margin: 0;
+    padding: 0;
 }
 img {
     width: 100%;
@@ -9,7 +9,10 @@ img {
 nav {
     display: flex;
     justify-content:space-between;
-    
+    background-color: black;
+    color: white;
+    height: 10vh;
+    align-items: center;
    
 }
 .logo-container {
@@ -26,6 +29,7 @@ nav {
     display: flex;
     justify-content: space-evenly;
     width: 40%;
+    height: 70%;
 }
 button {
     background-color: white;
@@ -39,25 +43,30 @@ ul {
     list-style: none;
     justify-content: space-between;
     width: 50%;
+    align-self: center;
 }
 
 main {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    background-color: black;
+    color: white;
 }
 .title-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 60vh;
 }
 .title {
     text-align: center;
-    font-weight: bold;
+    font-size: 6rem;
 }
 .paragraph {
     text-align: center;
+    font-size: 1.2rem;
 }
 article {
     display: flex;
@@ -85,6 +94,7 @@ article {
 .name-content {
     text-align: center;
     padding: 10px;
+    font-weight: bold;
 }
 .second-main {
     display: flex;
@@ -103,13 +113,13 @@ article {
     width: 60%;
     height: 60%;
     z-index: 1;
+    transform: translateY(50px);
     align-self: flex-start;
 }
 .imglayer2 {
     width: 60%;
     height: 60%;
     z-index: 2;
-    
     justify-self: center;
     align-self: center;
 }
@@ -125,24 +135,33 @@ article {
     padding: 10px;
     align-self: flex-start;
     font-weight: bold;
+    font-size: 2rem;
 }
 .textlayer2 {
     padding: 10px;
     align-self: center;
+    font-size: 1.5rem;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    height: 35vh;
 }
 
 .buttonlayer1 {
     background-color: black;
     color: white;
     padding: 10px;
+    width: 10vw;
     
 }
 .footer {
+    padding: 10px;
     display: flex;
     
     background-color: white;
 }
 .footer-imgs {
+    padding: 10px;
     background-color: white;
     display: flex;
     justify-content: space-around;
